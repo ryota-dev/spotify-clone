@@ -5,7 +5,7 @@ import React from 'react';
 
 interface MediaItemProps {
   data: Song;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const MediaItem: React.FC<MediaItemProps> = ({ data, onClick }) => {
